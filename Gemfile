@@ -19,6 +19,7 @@ gem 'parallel_tests'
 
 # Debugging
 gem 'pry'                  # Easily debug from your console with `binding.pry`
+gem 'inherited_resources', github: "DrawGun/inherited_resources"
 
 group :development do
   # Debugging
