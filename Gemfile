@@ -4,7 +4,7 @@ gemspec
 
 require File.expand_path 'spec/support/detect_rails_version', File.dirname(__FILE__)
 
-rails_version = detect_rails_version
+rails_version = ">= #{detect_rails_version}"
 gem 'rails', rails_version
 
 # Optional dependencies
@@ -19,7 +19,7 @@ gem 'parallel_tests'
 
 # Debugging
 gem 'pry'                  # Easily debug from your console with `binding.pry`
-gem 'inherited_resources', github: "DrawGun/inherited_resources"
+gem 'inherited_resources', github: "drawgun/inherited_resources"
 
 group :development do
   # Debugging

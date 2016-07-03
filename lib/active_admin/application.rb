@@ -107,6 +107,9 @@ module ActiveAdmin
                                       :email,
                                       :to_s ]
 
+
+    setting :localize_format, :long
+
     # == Deprecated Settings
 
     def allow_comments=(*)
